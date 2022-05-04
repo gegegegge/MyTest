@@ -52,6 +52,6 @@ int main()
 		<< ",serverID:" << resMsg->serverid()
 		<< ",data:" << resMsg->data()
 		<< endl;
-
+	system("pause");
 	return 0;
 }
