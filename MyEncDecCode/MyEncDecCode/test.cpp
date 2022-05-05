@@ -13,7 +13,7 @@ void* decodeMsg(Codec* codec)
 	return codec->decodeMsg();
 }
 
-int main()
+int main01()
 {
 	RequestInfo reqInfo;
 	reqInfo.cmd = 9;
